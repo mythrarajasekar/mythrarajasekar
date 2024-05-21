@@ -1,0 +1,9 @@
+n = int(input("Enter n: "))
+k = int(input("Enter k: "))
+count = 0
+num = 0
+while count < n:
+    num += 1
+    if str(k) in str(num) or num % k == 0:
+        count += 1
+print("The", n, "th number that contains the digit", k, "or is divisible by", k, "is:", num)
