@@ -1,0 +1,4 @@
+n=int(input())
+m=n*n 
+r=m/2
+print(int(r))
