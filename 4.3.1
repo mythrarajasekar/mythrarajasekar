@@ -1,0 +1,14 @@
+def has_first_and_last_bits_set(num):
+    binary_str = bin(num)[2:]
+    return binary_str[0] == '1' and binary_str[-1] == '1' and binary_str.count('1') == 2
+
+def print_numbers_with_first_and_last_bits_set(n):
+    for num in range(1, n + 1):
+        if has_first_and_last_bits_set(num):
+            print(num, end=' ')
+
+# Read the input value for n
+n = int(input("Enter a positive integer n: "))
+
+# Print the numbers with the first and last bits set
+print_numbers_with_first_and_last_bits_set(n)
