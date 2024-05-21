@@ -1,0 +1,16 @@
+# Read input value for n
+n = int(input("Enter a number: "))
+
+# Check if n is valid
+if n <= 0:
+    print("Invalid input")
+else:
+    count = 0
+    num = 1
+    while count < n:
+        if num == int(num ** (1/2)) ** 2 and num == int(num ** (1/3)) ** 3:
+            count += 1
+            if count == n:
+                print(num)
+                break
+        num += 1
