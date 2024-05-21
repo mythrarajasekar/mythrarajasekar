@@ -1,0 +1,5 @@
+n = int(input("Enter the starting number (n): "))
+m = int(input("Enter the ending number (m): "))
+
+divisible_sum = sum(i for i in range(n, m + 1) if i % 9 == 0)
+print("Sum of integers divisible by 9 between {} and {}: {}".format(n, m, divisible_sum))
