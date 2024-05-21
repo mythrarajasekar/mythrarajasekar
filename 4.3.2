@@ -1,0 +1,21 @@
+def fibonacci_reverse(n):
+    if n <= 0:
+        print("Invalid input")
+        return
+    
+    fib_series = [0, 1]
+    for _ in range(2, n):
+        fib_series.append(fib_series[-1] + fib_series[-2])
+    
+    fib_series.reverse()
+    return fib_series
+
+# Read the input number
+n = int(input("Enter any number: "))
+
+# Get the reversed Fibonacci series
+reverse_fib_series = fibonacci_reverse(n)
+
+# Print the reversed Fibonacci series
+if reverse_fib_series:
+    print(" ".join(map(str, reverse_fib_series)))
