@@ -1,0 +1,14 @@
+def find_repetitive_element(arr):
+    seen = set()
+    for num in arr:
+        if num in seen:
+            return num
+        seen.add(num)
+
+def main():
+    arr = [int(x) for x in input("Enter the elements of the array separated by spaces: ").split()]
+    repetitive_element = find_repetitive_element(arr)
+    print("The repetitive element in the array is:", repetitive_element)
+
+if __name__ == "__main__":
+    main()
