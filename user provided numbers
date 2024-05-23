@@ -1,0 +1,31 @@
+def store_numbers():
+    size = int(input("Enter the number of elements: "))
+    numbers = []
+    print("Enter the elements:")
+    for i in range(size):
+        num = int(input())
+        numbers.append(num)
+    return numbers
+
+def display_numbers(numbers):
+    print("Elements in the array:", numbers)
+
+def insert_delete_numbers(numbers, insert_num, insert_index, delete_index):
+    numbers.insert(insert_index, insert_num)
+    if delete_index < len(numbers):
+        del numbers[delete_index]
+    return numbers
+
+def main():
+    numbers = store_numbers()
+    display_numbers(numbers)
+    
+    insert_num = int(input("Enter the number to insert: "))
+    insert_index = int(input("Enter the index to insert at: "))
+    delete_index = int(input("Enter the index to delete: "))
+
+    updated_numbers = insert_delete_numbers(numbers, insert_num, insert_index, delete_index)
+    display_numbers(updated_numbers)
+
+if __name__ == "__main__":
+    main()
