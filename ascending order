@@ -1,0 +1,16 @@
+def sort_array(arr):
+    arr.sort()
+    return arr
+
+def main():
+    size = int(input("Enter how many values you want to read: "))
+    arr = []
+    
+    for i in range(size):
+        arr.append(int(input(f"Enter the value of a[{i}]: ")))
+    
+    sorted_arr = sort_array(arr)
+    print("Sorted array in ascending order:", sorted_arr)
+
+if __name__ == "__main__":
+    main()
