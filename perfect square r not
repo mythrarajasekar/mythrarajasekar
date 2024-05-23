@@ -1,0 +1,23 @@
+import math
+
+def is_perfect_square(num):
+    square_root = int(math.sqrt(num))
+    return square_root * square_root == num
+
+def find_largest_non_perfect_square(arr):
+    largest_non_perfect_square = -1
+    for num in arr:
+        if not is_perfect_square(num) and num > largest_non_perfect_square:
+            largest_non_perfect_square = num
+    return largest_non_perfect_square
+
+def main():
+    arr = [int(x) for x in input("Enter the elements of the array separated by spaces: ").split()]
+    largest_non_perfect_square = find_largest_non_perfect_square(arr)
+    if largest_non_perfect_square != -1:
+        print("The largest number that is not a perfect square:", largest_non_perfect_square)
+    else:
+        print("-1")
+
+if __name__ == "__main__":
+    main()
