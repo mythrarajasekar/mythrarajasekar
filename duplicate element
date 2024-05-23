@@ -1,0 +1,19 @@
+def find_last_duplicate(arr):
+    last_duplicate_index = -1
+    duplicate_element = None
+    for i in range(len(arr) - 1):
+        if arr[i] == arr[i + 1]:
+            last_duplicate_index = i + 1
+            duplicate_element = arr[i]
+    return last_duplicate_index, duplicate_element
+
+def main():
+    arr = [int(x) for x in input("Enter the elements of the sorted array separated by spaces: ").split()]
+    last_duplicate_index, duplicate_element = find_last_duplicate(arr)
+    if last_duplicate_index != -1:
+        print(f"Last duplicate element: {duplicate_element}, Index: {last_duplicate_index}")
+    else:
+        print("No duplicate element found.")
+
+if __name__ == "__main__":
+    main()
