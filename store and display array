@@ -1,0 +1,20 @@
+def store_elements(size):
+    arr = []
+    print("Enter the elements of the array:")
+    for i in range(size):
+        element = int(input(f"Enter element {i + 1}: "))
+        arr.append(element)
+    return arr
+
+def display_elements(arr):
+    print("Elements of the array:")
+    for i in range(len(arr)):
+        print(arr[i], end=" ")
+
+def main():
+    size = int(input("Enter the size of the array: "))
+    arr = store_elements(size)
+    display_elements(arr)
+
+if __name__ == "__main__":
+    main()
