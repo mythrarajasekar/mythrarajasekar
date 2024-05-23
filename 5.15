@@ -1,0 +1,23 @@
+def move_zeros_to_end(arr):
+    n = len(arr)
+    # Initialize a pointer to keep track of the position to place the next non-zero element
+    non_zero_index = 0
+
+    # Traverse the array
+    for i in range(n):
+        # If the current element is non-zero, move it to the position indicated by non_zero_index
+        if arr[i] != 0:
+            arr[non_zero_index] = arr[i]
+            non_zero_index += 1
+
+    # Fill the remaining positions with zeros
+    for i in range(non_zero_index, n):
+        arr[i] = 0
+
+def main():
+    arr = [int(x) for x in input("Enter the elements of the array separated by spaces: ").split()]
+    move_zeros_to_end(arr)
+    print("Array after moving zeros to the end:", arr)
+
+if __name__ == "__main__":
+    main()
