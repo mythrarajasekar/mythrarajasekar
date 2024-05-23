@@ -1,0 +1,36 @@
+import math
+
+def store_numbers():
+    size = int(input("Enter the number of elements: "))
+    numbers = []
+    print("Enter the elements:")
+    for i in range(size):
+        num = float(input())
+        numbers.append(num)
+    return numbers
+
+def calculate_mean(numbers):
+    total_sum = sum(numbers)
+    mean = total_sum / len(numbers)
+    return mean
+
+def calculate_variance(numbers, mean):
+    variance = sum((x - mean) ** 2 for x in numbers) / len(numbers)
+    return variance
+
+def calculate_deviation(variance):
+    deviation = math.sqrt(variance)
+    return deviation
+
+def main():
+    numbers = store_numbers()
+    mean = calculate_mean(numbers)
+    variance = calculate_variance(numbers, mean)
+    deviation = calculate_deviation(variance)
+
+    print("Mean:", mean)
+    print("Variance:", variance)
+    print("Deviation:", deviation)
+
+if __name__ == "__main__":
+    main()
