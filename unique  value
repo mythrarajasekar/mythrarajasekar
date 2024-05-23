@@ -1,0 +1,12 @@
+def remove_duplicates(arr):
+    unique_values = list(set(arr))
+    return unique_values
+
+def main():
+    arr = [int(x) for x in input("Enter the elements of the array separated by spaces: ").split()]
+    unique_values = remove_duplicates(arr)
+    
+    print("Unique values in the array:", unique_values)
+
+if __name__ == "__main__":
+    main()
