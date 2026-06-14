@@ -4,8 +4,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=FF61F6&center=true&vCenter=true&width=700&lines=Welcome+to+My+GitHub+Profile!;Software+Developer+in+the+Making;UiPath+RPA+Enthusiast;Full+Stack+Developer;Always+Learning+New+Things" />
 </p>
-```
-
 
 ---
 
@@ -35,26 +33,65 @@
 
 ---
 
+# 🏅 Key Domains
+
+🤖 Robotic Process Automation (UiPath)
+
+☁️ Cloud Computing
+
+💻 Full Stack Development
+
+📊 Machine Learning
+
+🗄️ Database Management Systems
+
+🔄 CI/CD & DevOps
+
+📈 Data Analytics
+
+---
+
 # 🚀 Featured Projects
 
-### 🎯 MyQuiz - Full Stack Quiz Platform
-- Developed a Kahoot-style quiz application with Student and Admin modules
-- Implemented authentication, score tracking, quiz management, and leaderboard functionality
-- Tech Stack: React.js, Node.js, MongoDB
+### 🎯 MY-QUIZ
+A full-stack Kahoot-style quiz platform with student and admin modules, authentication, score tracking, and leaderboard functionality.
+**Tech Stack:** React.js, Node.js, MongoDB
 
-### 🤖 Employee ID Card Automation
-- Automated employee ID card generation using UiPath RPA
-- Extracted and processed employee information from Excel sheets
-- Reduced manual effort and improved efficiency
+### 🤖 EMPLOYEE-ID-CARD-GENERATION
+Automated employee ID card generation using UiPath RPA and Excel automation to reduce manual effort.
+**Tech Stack:** UiPath, Excel, Automation
 
-### 📧 Automated Email Response System
-- Designed an intelligent helpdesk assistant using UiPath
-- Processed email attachments using OCR
-- Generated automated responses using keyword-template mapping
+### 📧 SCREENSHOT-BOT
+Automation bot for capturing and processing screenshots efficiently.
+**Tech Stack:** Python
 
-### 🌐 Personal Portfolio Website
-- Designed and developed a responsive portfolio website
-- Showcases projects, skills, and certifications
+### 🔐 PASSWORD-GENERATOR-BOT
+Secure password generation tool with customizable password strength.
+**Tech Stack:** Python
+
+### 💱 CURRENCY-CONVERTOR-BOT
+Real-time currency conversion application.
+**Tech Stack:** Python
+
+### 🐍 Snake.io
+Browser-based snake game developed using AI-Driven Development Lifecycle (AI-DLC).
+**Tech Stack:** React, TypeScript, GitHub Actions, Render
+
+### 🎓 Admission & Scholarship Prediction
+Predictive system for admission and scholarship eligibility analysis.
+**Tech Stack:** JavaScript, Machine Learning
+
+### ❤️ Heart Disease Prediction
+Machine learning project for predicting heart disease risk.
+**Tech Stack:** Python, ML
+
+### ₿ Bitcoin Value Predictor
+Forecasting Bitcoin prices using machine learning techniques.
+**Tech Stack:** Python, Data Science
+
+### 📍 Smart Attendance Tracker
+Digital attendance tracking and management system.
+**Tech Stack:** TypeScript
 
 ---
 
@@ -113,17 +150,6 @@
 
 ---
 
-# 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=mythrarajasekar&theme=radical&no-frame=true&no-bg=true&margin-w=4)
-
----
-
-# 🎯 Career Objective
-
-Passionate about Software Development, Automation, and Cloud Technologies. Seeking opportunities to contribute to innovative projects while continuously enhancing my technical expertise and creating impactful solutions.
-
----
 
 # ⚡ Fun Fact
 
