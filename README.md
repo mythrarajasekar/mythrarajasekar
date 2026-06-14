@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Mythra Rajasekar</h1>
 <h3 align="center">🚀 Aspiring Software Engineer | 🤖 RPA Enthusiast | ☁️ Cloud Explorer | 💻 Full Stack Developer</h3>
 
-```
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=FF61F6&center=true&vCenter=true&width=700&lines=Welcome+to+My+GitHub+Profile!;Software+Developer+in+the+Making;UiPath+RPA+Enthusiast;Full+Stack+Developer;Always+Learning+New+Things" />
 </p>
